@@ -1,4 +1,7 @@
 # Prerequisites
+*
+!*.*
+!*/
 *.d
 
 # Compiled Object files
@@ -30,9 +33,6 @@
 *.exe
 *.out
 *.app
-*
-!*.*
-!*/
 
 !README
 !LICENSE
