@@ -25,11 +25,8 @@ The EVA package is composed of:
 
 Compiling
 
-The FORTRAN routines all make use of the NETCDF fortran library, and so need to be linked to the library upon compilation. 
-
-A template script for compiling EVA is included in the file 'compile_eva_template'. Users should insert the path to the netcdf-fortran library on their system as well as appropriate flags.  
-
-Compiling has been tested primarily using the gfortran compiler. If errors occur with other compilers, please get in contact. 
+_To compile on NASA Discover machine using ifort and mpi:_
+`make`
 
 
 Namelist
